@@ -21,12 +21,12 @@ class MostViewedTableViewCell: UITableViewCell {
         // Initialization code
     }
     
-    func setupCell(with Items: News?) {
-        titleLabel.text = Items?.title ?? ""
-        subTitleLabel.text = Items?.byLine ?? ""
-        dateLabel.text = Items?.publishedDate ?? ""
+    func setupCell(with items: News?) {
+        titleLabel.text = items?.title ?? ""
+        subTitleLabel.text = items?.byLine ?? ""
+        dateLabel.text = items?.publishedDate ?? ""
         newsImageView.image = nil
-        guard let url = URL(string: Items?.media?[0].image?[0].url ?? "") else { return }
+        guard let url = URL(string: items?.media?[0].image?[0].url ?? "") else { return }
         newsImageView.af_setImage(withURL: url)
     }
 }

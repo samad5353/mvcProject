@@ -12,10 +12,9 @@ class DetailCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var newsImageView: UIImageView!
     
-    
-    func setupCell(with Items: Images?) {
+    func setupCell(with items: Images?) {
         newsImageView.image = nil
-        guard let url = URL(string: Items?.url ?? "") else { return }
+        guard let url = URL(string: items?.url ?? "") else { return }
         newsImageView.af_setImage(withURL: url)
     }
 }

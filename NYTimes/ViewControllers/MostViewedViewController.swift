@@ -19,7 +19,7 @@ class MostViewedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView(frame: CGRect.zero)
-        let smart : UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "activityFeedFilter"), style: .plain, target: self, action: #selector(filterButtonClicked))
+        let smart: UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "activityFeedFilter"), style: .plain, target: self, action: #selector(filterButtonClicked))
         self.navigationItem.rightBarButtonItem = smart
         activityIndicator.stopAnimating()
         makeMostViewedAPI()
@@ -30,7 +30,7 @@ class MostViewedViewController: UIViewController {
         mostViewed?.getMostViewedNews(filter: filter, completion: {(rexent, error) in
             if error != nil {
                 let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
-                let cancel = UIAlertAction(title: "OK", style: .default, handler: { action in
+                let cancel = UIAlertAction(title: "OK", style: .default, handler: { _ in
                     alertController.dismiss(animated: true)
                 })
                 alertController.addAction(cancel)
@@ -44,21 +44,21 @@ class MostViewedViewController: UIViewController {
     
     @IBAction func filterButtonClicked(_ sender: Any) {
         let alertController = UIAlertController(title: "Filter", message: nil, preferredStyle: .actionSheet)
-        let lastWeek = UIAlertAction(title: "Last Week", style: .default, handler: { action in
+        let lastWeek = UIAlertAction(title: "Last Week", style: .default, handler: { _ in
             self.dismiss(animated: true, completion: nil)
             self.makeMostViewedAPI(filter: "7")
         })
         
-        let lastMonth = UIAlertAction(title: "Last Month", style: .default, handler: { action in
+        let lastMonth = UIAlertAction(title: "Last Month", style: .default, handler: { _ in
             self.dismiss(animated: true, completion: nil)
             self.makeMostViewedAPI(filter: "30")
         })
         
-        let today = UIAlertAction(title: "Today", style: .default, handler: { action in
+        let today = UIAlertAction(title: "Today", style: .default, handler: { _ in
             self.dismiss(animated: true, completion: nil)
             self.makeMostViewedAPI(filter: "1")
         })
-        let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: { _ in
             self.dismiss(animated: true, completion: nil)
         })
         alertController.addAction(lastWeek)
@@ -69,7 +69,7 @@ class MostViewedViewController: UIViewController {
     }
 }
 
-extension MostViewedViewController : UITableViewDelegate, UITableViewDataSource {
+extension MostViewedViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return news?.count ?? 0
     }

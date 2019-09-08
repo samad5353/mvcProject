@@ -10,5 +10,5 @@ target 'NYTimes' do
 	pod 'Alamofire'
   pod 'AlamofireObjectMapper'
   pod 'AlamofireImage'
-
+  pod 'SwiftLint'
 end

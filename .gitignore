@@ -167,3 +167,6 @@ Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-umbrella.h
 Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes.debug.xcconfig
 Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes.modulemap
 Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes.release.xcconfig
+Pods/SwiftLint/LICENSE
+Pods/SwiftLint/swiftlint
+Pods/Target Support Files/SwiftLint/SwiftLint.xcconfig

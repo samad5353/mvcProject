@@ -15,7 +15,6 @@ final class MostRecent: NSObject, Mappable {
     var copyRight: String?
     var mostViewed: [News]?
     
-    
     func mapping(map: Map) {
         copyRight    <- map["copyright"]
         mostViewed   <- map["results"]
@@ -33,9 +32,11 @@ final class MostRecent: NSObject, Mappable {
             if let items = response {
                 recent = MostRecent(JSON: items)
                 completion?(recent,nil)
+                completion(recent, nil)
             }
         }) { (error) in
             completion?(nil, error)
+            completion(nil, error)
         }
         
     }
