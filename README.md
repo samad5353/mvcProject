@@ -1,1 +1,1 @@
-# mvcProject
+# MVC Pattern Sample Project
