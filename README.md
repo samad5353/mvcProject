@@ -5,7 +5,9 @@ The whole application is built based on the MVC architectural pattern, with the 
 
 # ScreenShots
 
-
+![alt text](https://user-images.githubusercontent.com/13150747/64485850-71c03680-d236-11e9-87b4-fb77a1b40c3b.png)
+![alt text](https://user-images.githubusercontent.com/13150747/64485877-ccf22900-d236-11e9-8824-b1c489e2c916.png)
+![alt text](https://user-images.githubusercontent.com/13150747/64485878-cd8abf80-d236-11e9-8c63-bcb227e9853f.png)
 
 
 # How to build ?
