@@ -3,6 +3,11 @@
 
 The whole application is built based on the MVC architectural pattern, with the support of  **Alamofire & Object Mapper** with CocoaPods
 
+# ScreenShots
+
+
+
+
 # How to build ?
 
 Open terminal and type the below command to install the libraries <br/>
@@ -12,9 +17,9 @@ Open terminal and type the below command to install the libraries <br/>
 
 # Programming Practices Followed
 
-a) iOS Architectural Components 
-b) AutoLayout for User Interfaces 
-c) MVC 
-d) Alamofire for network libraries 
-e) ObjectMapper for mapping Objects to models 
-f) Alamofire Image for image caching
+a) iOS Architectural Components <br/>
+b) AutoLayout for User Interfaces  <br/>
+c) MVC <br/>
+d) Alamofire for network libraries <br/>
+e) ObjectMapper for mapping Objects to models <br/>
+f) Alamofire Image for image caching <br/>
