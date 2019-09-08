@@ -3,11 +3,6 @@
 
 The whole application is built based on the MVC architectural pattern, with the support of  **Alamofire & Object Mapper** with CocoaPods
 
-# ScreenShots
-
-
-
-
 # How to build ?
 
 Open terminal and type the below command to install the libraries <br/>
