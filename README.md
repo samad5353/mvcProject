@@ -1,7 +1,7 @@
 # iOS MVC Base Architecture for Enterprise Mobile Application 
 
 
-The whole application is built based on the MVC architectural pattern, with the support of  ** Alamofire & Object Mapper ** with CocoaPods
+The whole application is built based on the MVC architectural pattern, with the support of  **Alamofire & Object Mapper** with CocoaPods
 
 # How to build ?
 
