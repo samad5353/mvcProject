@@ -66,3 +66,104 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+Podfile.lock
+NYTimes.xcworkspace/contents.xcworkspacedata
+NYTimes.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+Pods/Manifest.lock
+Pods/Alamofire/LICENSE
+Pods/Alamofire/README.md
+Pods/Alamofire/Source/AFError.swift
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Result.swift
+Pods/Alamofire/Source/ServerTrustPolicy.swift
+Pods/Alamofire/Source/SessionDelegate.swift
+Pods/Alamofire/Source/SessionManager.swift
+Pods/Alamofire/Source/TaskDelegate.swift
+Pods/Alamofire/Source/Timeline.swift
+Pods/Alamofire/Source/Validation.swift
+Pods/AlamofireImage/LICENSE
+Pods/AlamofireImage/README.md
+Pods/AlamofireImage/Source/AFIError.swift
+Pods/AlamofireImage/Source/Image.swift
+Pods/AlamofireImage/Source/ImageCache.swift
+Pods/AlamofireImage/Source/ImageDownloader.swift
+Pods/AlamofireImage/Source/ImageFilter.swift
+Pods/AlamofireImage/Source/Request+AlamofireImage.swift
+Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift
+Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift
+Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift
+Pods/AlamofireObjectMapper/LICENSE
+Pods/AlamofireObjectMapper/README.md
+Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift
+Pods/ObjectMapper/LICENSE
+Pods/ObjectMapper/README-CN.md
+Pods/ObjectMapper/Sources/CodableTransform.swift
+Pods/ObjectMapper/Sources/CustomDateFormatTransform.swift
+Pods/ObjectMapper/Sources/DataTransform.swift
+Pods/ObjectMapper/Sources/DateFormatterTransform.swift
+Pods/ObjectMapper/Sources/DateTransform.swift
+Pods/ObjectMapper/Sources/DictionaryTransform.swift
+Pods/ObjectMapper/Sources/EnumOperators.swift
+Pods/ObjectMapper/Sources/EnumTransform.swift
+Pods/ObjectMapper/Sources/FromJSON.swift
+Pods/ObjectMapper/Sources/HexColorTransform.swift
+Pods/ObjectMapper/Sources/ImmutableMappable.swift
+Pods/ObjectMapper/Sources/IntegerOperators.swift
+Pods/ObjectMapper/Sources/ISO8601DateTransform.swift
+Pods/ObjectMapper/Sources/Map.swift
+Pods/ObjectMapper/Sources/MapError.swift
+Pods/ObjectMapper/Sources/Mappable.swift
+Pods/ObjectMapper/Sources/Mapper.swift
+Pods/ObjectMapper/Sources/NSDecimalNumberTransform.swift
+Pods/ObjectMapper/Sources/Operators.swift
+Pods/ObjectMapper/Sources/ToJSON.swift
+Pods/ObjectMapper/Sources/TransformOf.swift
+Pods/ObjectMapper/Sources/TransformOperators.swift
+Pods/ObjectMapper/Sources/TransformType.swift
+Pods/ObjectMapper/Sources/URLTransform.swift
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+Pods/Target Support Files/AlamofireImage/AlamofireImage-dummy.m
+Pods/Target Support Files/AlamofireImage/AlamofireImage-Info.plist
+Pods/Target Support Files/AlamofireImage/AlamofireImage-prefix.pch
+Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h
+Pods/Target Support Files/AlamofireImage/AlamofireImage.modulemap
+Pods/Target Support Files/AlamofireImage/AlamofireImage.xcconfig
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-dummy.m
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-Info.plist
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-prefix.pch
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper.modulemap
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper.xcconfig
+Pods/Target Support Files/ObjectMapper/ObjectMapper-dummy.m
+Pods/Target Support Files/ObjectMapper/ObjectMapper-Info.plist
+Pods/Target Support Files/ObjectMapper/ObjectMapper-prefix.pch
+Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h
+Pods/Target Support Files/ObjectMapper/ObjectMapper.modulemap
+Pods/Target Support Files/ObjectMapper/ObjectMapper.xcconfig
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-acknowledgements.markdown
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-acknowledgements.plist
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-dummy.m
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-frameworks.sh
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-Info.plist
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes-umbrella.h
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes.debug.xcconfig
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes.modulemap
+Pods/Target Support Files/Pods-NYTimes/Pods-NYTimes.release.xcconfig
