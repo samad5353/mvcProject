@@ -25,21 +25,16 @@ final class MostRecent: NSObject, Mappable {
         self.init()
     }
     
-    func getMostViewedNews(filter: String?, completion: ((MostRecent?, Error?) -> ())? = nil) {
+    func getMostViewedNews(filter: String?, completion: @escaping (MostRecent?, Error?) -> ()) {
         let url = String(format: NYAPI.mostRecent, filter ?? "7")
         NetworkManager.shared.makeGetCall(url: url, parameters: nil, successBlock: { (response) in
             var recent: MostRecent?
             if let items = response {
                 recent = MostRecent(JSON: items)
-                completion?(recent,nil)
                 completion(recent, nil)
             }
         }) { (error) in
-            completion?(nil, error)
             completion(nil, error)
         }
-        
     }
-    
-    
 }
