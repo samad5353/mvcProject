@@ -18,3 +18,4 @@ c) MVC <br/>
 d) Alamofire for network libraries <br/>
 e) ObjectMapper for mapping Objects to models <br/>
 f) Alamofire Image for image caching <br/>
+g) Code Coverage report using SwiftLint
